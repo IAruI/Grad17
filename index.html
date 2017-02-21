@@ -1,0 +1,56 @@
+<html>
+<head>
+<body bgcolor="#000000">
+
+<style>
+.moveimage
+{
+    position: relative;
+    top: 25px;
+}
+.tempDiv2{
+	display: none;
+
+}
+.mydiv{
+    position:relative
+}
+.mydiv img{
+    position:absolute;
+    top:15px;
+    left:100px;
+
+}
+
+.move{
+	top:100px;
+}
+</style>
+</style>
+<title>
+Grad17
+</title>
+</head>
+<body>	
+<body>
+<div class="mydiv">
+<center><img class="moveimage" id="someimage" onclick="test()" src="2bg.png" style="width:1100px;height:700px;" align="middle"></center>
+
+<div id="move">
+<center><img src="bg.png" id="swag" class="tempDiv2" align:"middle"></center>
+</div>
+
+</div>
+<script>
+function test() {
+    var img = document.getElementById('someimage');
+    
+        img.style.visibility = "hidden";
+document.getElementById('swag').style.display = 'block';
+
+    
+}
+</script>
+</div>
+</body>
+</html>
